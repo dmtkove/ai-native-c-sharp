@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AiNative.Api/AiNative.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AiNative.Tests/AiNative.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Legacy.Api/Legacy.Api.csproj" />
+    <Project Path="src/Legacy.Application/Legacy.Application.csproj" />
+    <Project Path="src/Legacy.Domain/Legacy.Domain.csproj" />
+    <Project Path="src/Legacy.Infrastructure/Legacy.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Legacy.Tests/Legacy.Tests.csproj" />
+  </Folder>
+</Solution>

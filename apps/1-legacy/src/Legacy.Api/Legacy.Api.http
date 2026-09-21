@@ -1,0 +1,24 @@
+@Legacy.Api_HostAddress = http://localhost:5101
+
+### Deposit for Alice
+POST {{Legacy.Api_HostAddress}}/deposits
+Content-Type: application/json
+
+{
+  "customerId": "11111111-1111-1111-1111-111111111111",
+  "amount": 10.00,
+  "provider": "stripe"
+}
+
+### Withdraw for Alice
+POST {{Legacy.Api_HostAddress}}/withdrawals
+Content-Type: application/json
+
+{
+  "customerId": "11111111-1111-1111-1111-111111111111",
+  "amount": 5.00,
+  "provider": "paypal"
+}
+
+### Get Alice balance
+GET {{Legacy.Api_HostAddress}}/customers/11111111-1111-1111-1111-111111111111/balance

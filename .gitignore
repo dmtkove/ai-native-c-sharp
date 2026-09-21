@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+.vs/
+.idea/
+*.DotSettings.user
+TestResults/
+.DS_Store
+Thumbs.db
